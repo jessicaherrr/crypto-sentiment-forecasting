@@ -192,7 +192,7 @@ The temporal experiment isolates short-window and exponential-decay effects whil
 | ETH | 0.023374 | 0.022989 | 0.023229 | **0.022930** | **Short + decay** |
 
 <p align="center">
-  <img src="figures/phase4_mae.pdf" width="78%" alt="Phase 4 temporal ablation MAE">
+  <img src="figures/phase4_mae.png" width="78%" alt="Phase 4 temporal ablation MAE">
 </p>
 
 **Takeaway:** recent observations can matter more than older observations, but the best temporal treatment differs by asset.
@@ -226,14 +226,14 @@ Phase 5 tests whether general-financial and crypto-specific sentiment should be 
 | Phase 2 General LSTM | 0.024451 |
 
 <p align="center">
-  <img src="figures/phase5_mae.pdf" width="78%" alt="Phase 5 reliability fusion MAE">
+  <img src="figures/phase5_mae.png" width="78%" alt="Phase 5 reliability fusion MAE">
 </p>
 
 ### Dynamic news-scope weights
 
 <p align="center">
-  <img src="figures/phase5_btc_scope_weight.pdf" width="48%" alt="BTC dynamic crypto-scope weight">
-  <img src="figures/phase5_eth_scope_weight.pdf" width="48%" alt="ETH dynamic crypto-scope weight">
+  <img src="figures/phase5_btc_scope_weight.png" width="48%" alt="BTC dynamic crypto-scope weight">
+  <img src="figures/phase5_eth_scope_weight.png" width="48%" alt="ETH dynamic crypto-scope weight">
 </p>
 
 **Takeaway:** reliability-aware fusion can outperform naive multi-source concatenation in some settings, but it does not consistently beat the best single-scope model.
@@ -257,15 +257,15 @@ Positive forecasts generate long positions; negative forecasts generate short po
 ### Cumulative wealth
 
 <p align="center">
-  <img src="figures/btc_cumulative_wealth_10bps.pdf" width="48%" alt="BTC cumulative wealth at 10 bps">
-  <img src="figures/eth_cumulative_wealth_10bps.pdf" width="48%" alt="ETH cumulative wealth at 10 bps">
+  <img src="figures/btc_backtest_10bps.png" width="48%" alt="BTC cumulative wealth at 10 bps">
+  <img src="figures/eth_backtest_10bps.png" width="48%" alt="ETH cumulative wealth at 10 bps">
 </p>
 
 ### Transaction-cost sensitivity
 
 <p align="center">
-  <img src="figures/btc_cost_sensitivity.pdf" width="48%" alt="BTC transaction-cost sensitivity">
-  <img src="figures/eth_cost_sensitivity.pdf" width="48%" alt="ETH transaction-cost sensitivity">
+  <img src="figures/btc_cost_sensitivity.png" width="48%" alt="BTC transaction-cost sensitivity">
+  <img src="figures/eth_cost_sensitivity.png" width="48%" alt="ETH transaction-cost sensitivity">
 </p>
 
 **Economic takeaway:** some strategies retain positive net returns after moderate transaction costs, but drawdowns remain large and the economic gains are not consistently statistically robust.
