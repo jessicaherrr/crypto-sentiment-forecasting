@@ -192,7 +192,7 @@ The temporal experiment isolates short-window and exponential-decay effects whil
 | ETH | 0.023374 | 0.022989 | 0.023229 | **0.022930** | **Short + decay** |
 
 <p align="center">
-  <img src="figures/phase4_temporal_ablation_mae.png" width="78%" alt="Phase 4 temporal ablation MAE">
+  <img src="figures/phase4_mae.png" width="78%" alt="Phase 4 temporal ablation MAE">
 </p>
 
 **Takeaway:** recent observations can matter more than older observations, but the best temporal treatment differs by asset.
@@ -226,7 +226,7 @@ Phase 5 tests whether general-financial and crypto-specific sentiment should be 
 | Phase 2 General LSTM | 0.024451 |
 
 <p align="center">
-  <img src="figures/phase5_reliability_fusion_mae.png" width="78%" alt="Phase 5 reliability fusion MAE">
+  <img src="figures/phase5_mae.png" width="78%" alt="Phase 5 reliability fusion MAE">
 </p>
 
 ### Dynamic news-scope weights
