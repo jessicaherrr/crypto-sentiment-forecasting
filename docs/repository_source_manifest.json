@@ -1,0 +1,527 @@
+{
+  "created_at_utc": "2026-09-04T23:44:35.670793+00:00",
+  "source_project_root": "/content/drive/MyDrive/Crypto_Research",
+  "generated_repo_root": "/content/drive/MyDrive/crypto-sentiment-forecasting",
+  "notebooks": [
+    {
+      "target_name": "00_data_preparation.ipynb",
+      "source": "/content/drive/MyDrive/Colab Notebooks/Data_Extraction_Yahoo_Market_BTC_ETH.ipynb",
+      "status": "copied"
+    },
+    {
+      "target_name": "01_phase0_market_baseline.ipynb",
+      "source": "/content/drive/MyDrive/Colab Notebooks/Phase0_HICSS_Revised.ipynb",
+      "status": "copied"
+    },
+    {
+      "target_name": "02_phase1_general_sentiment.ipynb",
+      "source": "/content/drive/MyDrive/Colab Notebooks/Phase1_HICSS_Revised.ipynb",
+      "status": "copied"
+    },
+    {
+      "target_name": "03_phase2_finbert_general.ipynb",
+      "source": "/content/drive/MyDrive/Colab Notebooks/Phase2_HICSS_Revised.ipynb",
+      "status": "copied"
+    },
+    {
+      "target_name": "04_phase3_crypto_specific.ipynb",
+      "source": "/content/drive/MyDrive/Colab Notebooks/Phase3_HICSS_Revised.ipynb",
+      "status": "copied"
+    },
+    {
+      "target_name": "05_phase4_temporal_ablation.ipynb",
+      "source": "/content/drive/MyDrive/Colab Notebooks/Phase4_HICSS_Revised.ipynb",
+      "status": "copied"
+    },
+    {
+      "target_name": "06_phase5_reliability_fusion.ipynb",
+      "source": "/content/drive/MyDrive/Colab Notebooks/Phase5_Reliability_Aware_Dual_Scope_Fusion.ipynb",
+      "status": "copied"
+    },
+    {
+      "target_name": "07_economic_backtest.ipynb",
+      "source": "/content/drive/MyDrive/Colab Notebooks/Economic_Backtest_With_Trading_Costs.ipynb",
+      "status": "copied"
+    }
+  ],
+  "results": [
+    {
+      "phase": "phase0",
+      "source": "/content/drive/MyDrive/Crypto_Research/revised_outputs/phase0/ensemble_metrics.csv",
+      "target": "/content/drive/MyDrive/crypto-sentiment-forecasting/results/phase0/ensemble_metrics.csv",
+      "status": "copied"
+    },
+    {
+      "phase": "phase0",
+      "source": "/content/drive/MyDrive/Crypto_Research/revised_outputs/phase0/multiseed_summary.csv",
+      "target": "/content/drive/MyDrive/crypto-sentiment-forecasting/results/phase0/multiseed_summary.csv",
+      "status": "copied"
+    },
+    {
+      "phase": "phase0",
+      "source": "/content/drive/MyDrive/Crypto_Research/revised_outputs/phase0/significance.csv",
+      "target": "/content/drive/MyDrive/crypto-sentiment-forecasting/results/phase0/significance.csv",
+      "status": "copied"
+    },
+    {
+      "phase": "phase0",
+      "source": "/content/drive/MyDrive/Crypto_Research/revised_outputs/phase0/walk_forward_metrics.csv",
+      "target": "/content/drive/MyDrive/crypto-sentiment-forecasting/results/phase0/walk_forward_metrics.csv",
+      "status": "copied"
+    },
+    {
+      "phase": "phase0",
+      "source": "/content/drive/MyDrive/Crypto_Research/revised_outputs/phase0/split_counts.csv",
+      "target": "/content/drive/MyDrive/crypto-sentiment-forecasting/results/phase0/split_counts.csv",
+      "status": "copied"
+    },
+    {
+      "phase": "phase0",
+      "source": "/content/drive/MyDrive/Crypto_Research/revised_outputs/phase0/test_period.csv",
+      "target": "/content/drive/MyDrive/crypto-sentiment-forecasting/results/phase0/test_period.csv",
+      "status": "copied"
+    },
+    {
+      "phase": "phase0",
+      "source": "/content/drive/MyDrive/Crypto_Research/revised_outputs/phase0/arima_orders.csv",
+      "target": "/content/drive/MyDrive/crypto-sentiment-forecasting/results/phase0/arima_orders.csv",
+      "status": "copied"
+    },
+    {
+      "phase": "phase0",
+      "source": "/content/drive/MyDrive/Crypto_Research/revised_outputs/phase0/experiment_configuration.json",
+      "target": "/content/drive/MyDrive/crypto-sentiment-forecasting/results/phase0/experiment_configuration.json",
+      "status": "copied"
+    },
+    {
+      "phase": "phase0",
+      "source": "/content/drive/MyDrive/Crypto_Research/revised_outputs/phase0/environment_manifest.json",
+      "target": "/content/drive/MyDrive/crypto-sentiment-forecasting/results/phase0/environment_manifest.json",
+      "status": "copied"
+    },
+    {
+      "phase": "phase0",
+      "source": "/content/drive/MyDrive/Crypto_Research/revised_outputs/phase0/vif.csv",
+      "target": "/content/drive/MyDrive/crypto-sentiment-forecasting/results/phase0/vif.csv",
+      "status": "copied"
+    },
+    {
+      "phase": "phase1",
+      "source": "/content/drive/MyDrive/Crypto_Research/revised_outputs/phase1/ensemble_metrics.csv",
+      "target": "/content/drive/MyDrive/crypto-sentiment-forecasting/results/phase1/ensemble_metrics.csv",
+      "status": "copied"
+    },
+    {
+      "phase": "phase1",
+      "source": "/content/drive/MyDrive/Crypto_Research/revised_outputs/phase1/multiseed_summary.csv",
+      "target": "/content/drive/MyDrive/crypto-sentiment-forecasting/results/phase1/multiseed_summary.csv",
+      "status": "copied"
+    },
+    {
+      "phase": "phase1",
+      "source": "/content/drive/MyDrive/Crypto_Research/revised_outputs/phase1/significance.csv",
+      "target": "/content/drive/MyDrive/crypto-sentiment-forecasting/results/phase1/significance.csv",
+      "status": "copied"
+    },
+    {
+      "phase": "phase1",
+      "source": "/content/drive/MyDrive/Crypto_Research/revised_outputs/phase1/walk_forward_metrics.csv",
+      "target": "/content/drive/MyDrive/crypto-sentiment-forecasting/results/phase1/walk_forward_metrics.csv",
+      "status": "copied"
+    },
+    {
+      "phase": "phase1",
+      "source": "/content/drive/MyDrive/Crypto_Research/revised_outputs/phase1/split_counts.csv",
+      "target": "/content/drive/MyDrive/crypto-sentiment-forecasting/results/phase1/split_counts.csv",
+      "status": "copied"
+    },
+    {
+      "phase": "phase1",
+      "source": "/content/drive/MyDrive/Crypto_Research/revised_outputs/phase1/test_period.csv",
+      "target": "/content/drive/MyDrive/crypto-sentiment-forecasting/results/phase1/test_period.csv",
+      "status": "copied"
+    },
+    {
+      "phase": "phase1",
+      "source": "/content/drive/MyDrive/Crypto_Research/revised_outputs/phase1/arima_orders.csv",
+      "target": "/content/drive/MyDrive/crypto-sentiment-forecasting/results/phase1/arima_orders.csv",
+      "status": "copied"
+    },
+    {
+      "phase": "phase1",
+      "source": "/content/drive/MyDrive/Crypto_Research/revised_outputs/phase1/experiment_configuration.json",
+      "target": "/content/drive/MyDrive/crypto-sentiment-forecasting/results/phase1/experiment_configuration.json",
+      "status": "copied"
+    },
+    {
+      "phase": "phase1",
+      "source": "/content/drive/MyDrive/Crypto_Research/revised_outputs/phase1/environment_manifest.json",
+      "target": "/content/drive/MyDrive/crypto-sentiment-forecasting/results/phase1/environment_manifest.json",
+      "status": "copied"
+    },
+    {
+      "phase": "phase1",
+      "source": "/content/drive/MyDrive/Crypto_Research/revised_outputs/phase1/vif.csv",
+      "target": "/content/drive/MyDrive/crypto-sentiment-forecasting/results/phase1/vif.csv",
+      "status": "copied"
+    },
+    {
+      "phase": "phase1",
+      "source": "/content/drive/MyDrive/Crypto_Research/revised_outputs/phase1/news_preprocessing_audit.csv",
+      "target": "/content/drive/MyDrive/crypto-sentiment-forecasting/results/phase1/news_preprocessing_audit.csv",
+      "status": "copied"
+    },
+    {
+      "phase": "phase2",
+      "source": "/content/drive/MyDrive/Crypto_Research/revised_outputs/phase2/ensemble_metrics.csv",
+      "target": "/content/drive/MyDrive/crypto-sentiment-forecasting/results/phase2/ensemble_metrics.csv",
+      "status": "copied"
+    },
+    {
+      "phase": "phase2",
+      "source": "/content/drive/MyDrive/Crypto_Research/revised_outputs/phase2/multiseed_summary.csv",
+      "target": "/content/drive/MyDrive/crypto-sentiment-forecasting/results/phase2/multiseed_summary.csv",
+      "status": "copied"
+    },
+    {
+      "phase": "phase2",
+      "source": "/content/drive/MyDrive/Crypto_Research/revised_outputs/phase2/significance.csv",
+      "target": "/content/drive/MyDrive/crypto-sentiment-forecasting/results/phase2/significance.csv",
+      "status": "copied"
+    },
+    {
+      "phase": "phase2",
+      "source": "/content/drive/MyDrive/Crypto_Research/revised_outputs/phase2/walk_forward_metrics.csv",
+      "target": "/content/drive/MyDrive/crypto-sentiment-forecasting/results/phase2/walk_forward_metrics.csv",
+      "status": "copied"
+    },
+    {
+      "phase": "phase2",
+      "source": "/content/drive/MyDrive/Crypto_Research/revised_outputs/phase2/split_counts.csv",
+      "target": "/content/drive/MyDrive/crypto-sentiment-forecasting/results/phase2/split_counts.csv",
+      "status": "copied"
+    },
+    {
+      "phase": "phase2",
+      "source": "/content/drive/MyDrive/Crypto_Research/revised_outputs/phase2/test_period.csv",
+      "target": "/content/drive/MyDrive/crypto-sentiment-forecasting/results/phase2/test_period.csv",
+      "status": "copied"
+    },
+    {
+      "phase": "phase2",
+      "source": "/content/drive/MyDrive/Crypto_Research/revised_outputs/phase2/arima_orders.csv",
+      "target": "/content/drive/MyDrive/crypto-sentiment-forecasting/results/phase2/arima_orders.csv",
+      "status": "copied"
+    },
+    {
+      "phase": "phase2",
+      "source": "/content/drive/MyDrive/Crypto_Research/revised_outputs/phase2/experiment_configuration.json",
+      "target": "/content/drive/MyDrive/crypto-sentiment-forecasting/results/phase2/experiment_configuration.json",
+      "status": "copied"
+    },
+    {
+      "phase": "phase2",
+      "source": "/content/drive/MyDrive/Crypto_Research/revised_outputs/phase2/environment_manifest.json",
+      "target": "/content/drive/MyDrive/crypto-sentiment-forecasting/results/phase2/environment_manifest.json",
+      "status": "copied"
+    },
+    {
+      "phase": "phase2",
+      "source": "/content/drive/MyDrive/Crypto_Research/revised_outputs/phase2/vif.csv",
+      "target": "/content/drive/MyDrive/crypto-sentiment-forecasting/results/phase2/vif.csv",
+      "status": "copied"
+    },
+    {
+      "phase": "phase2",
+      "source": "/content/drive/MyDrive/Crypto_Research/revised_outputs/phase2/news_preprocessing_audit.csv",
+      "target": "/content/drive/MyDrive/crypto-sentiment-forecasting/results/phase2/news_preprocessing_audit.csv",
+      "status": "copied"
+    },
+    {
+      "phase": "phase3",
+      "source": "/content/drive/MyDrive/Crypto_Research/revised_outputs/phase3/ensemble_metrics.csv",
+      "target": "/content/drive/MyDrive/crypto-sentiment-forecasting/results/phase3/ensemble_metrics.csv",
+      "status": "copied"
+    },
+    {
+      "phase": "phase3",
+      "source": "/content/drive/MyDrive/Crypto_Research/revised_outputs/phase3/multiseed_summary.csv",
+      "target": "/content/drive/MyDrive/crypto-sentiment-forecasting/results/phase3/multiseed_summary.csv",
+      "status": "copied"
+    },
+    {
+      "phase": "phase3",
+      "source": "/content/drive/MyDrive/Crypto_Research/revised_outputs/phase3/significance.csv",
+      "target": "/content/drive/MyDrive/crypto-sentiment-forecasting/results/phase3/significance.csv",
+      "status": "copied"
+    },
+    {
+      "phase": "phase3",
+      "source": "/content/drive/MyDrive/Crypto_Research/revised_outputs/phase3/walk_forward_metrics.csv",
+      "target": "/content/drive/MyDrive/crypto-sentiment-forecasting/results/phase3/walk_forward_metrics.csv",
+      "status": "copied"
+    },
+    {
+      "phase": "phase3",
+      "source": "/content/drive/MyDrive/Crypto_Research/revised_outputs/phase3/split_counts.csv",
+      "target": "/content/drive/MyDrive/crypto-sentiment-forecasting/results/phase3/split_counts.csv",
+      "status": "copied"
+    },
+    {
+      "phase": "phase3",
+      "source": "/content/drive/MyDrive/Crypto_Research/revised_outputs/phase3/test_period.csv",
+      "target": "/content/drive/MyDrive/crypto-sentiment-forecasting/results/phase3/test_period.csv",
+      "status": "copied"
+    },
+    {
+      "phase": "phase3",
+      "source": "/content/drive/MyDrive/Crypto_Research/revised_outputs/phase3/arima_orders.csv",
+      "target": "/content/drive/MyDrive/crypto-sentiment-forecasting/results/phase3/arima_orders.csv",
+      "status": "copied"
+    },
+    {
+      "phase": "phase3",
+      "source": "/content/drive/MyDrive/Crypto_Research/revised_outputs/phase3/experiment_configuration.json",
+      "target": "/content/drive/MyDrive/crypto-sentiment-forecasting/results/phase3/experiment_configuration.json",
+      "status": "copied"
+    },
+    {
+      "phase": "phase3",
+      "source": "/content/drive/MyDrive/Crypto_Research/revised_outputs/phase3/environment_manifest.json",
+      "target": "/content/drive/MyDrive/crypto-sentiment-forecasting/results/phase3/environment_manifest.json",
+      "status": "copied"
+    },
+    {
+      "phase": "phase3",
+      "source": "/content/drive/MyDrive/Crypto_Research/revised_outputs/phase3/vif.csv",
+      "target": "/content/drive/MyDrive/crypto-sentiment-forecasting/results/phase3/vif.csv",
+      "status": "copied"
+    },
+    {
+      "phase": "phase3",
+      "source": "/content/drive/MyDrive/Crypto_Research/revised_outputs/phase3/news_preprocessing_audit.csv",
+      "target": "/content/drive/MyDrive/crypto-sentiment-forecasting/results/phase3/news_preprocessing_audit.csv",
+      "status": "copied"
+    },
+    {
+      "phase": "phase4",
+      "source": "/content/drive/MyDrive/Crypto_Research/revised_outputs/phase4/ensemble_metrics.csv",
+      "target": "/content/drive/MyDrive/crypto-sentiment-forecasting/results/phase4/ensemble_metrics.csv",
+      "status": "copied"
+    },
+    {
+      "phase": "phase4",
+      "source": "/content/drive/MyDrive/Crypto_Research/revised_outputs/phase4/multiseed_summary.csv",
+      "target": "/content/drive/MyDrive/crypto-sentiment-forecasting/results/phase4/multiseed_summary.csv",
+      "status": "copied"
+    },
+    {
+      "phase": "phase4",
+      "source": "/content/drive/MyDrive/Crypto_Research/revised_outputs/phase4/significance.csv",
+      "target": "/content/drive/MyDrive/crypto-sentiment-forecasting/results/phase4/significance.csv",
+      "status": "copied"
+    },
+    {
+      "phase": "phase4",
+      "source": "/content/drive/MyDrive/Crypto_Research/revised_outputs/phase4/walk_forward_metrics.csv",
+      "target": "/content/drive/MyDrive/crypto-sentiment-forecasting/results/phase4/walk_forward_metrics.csv",
+      "status": "copied"
+    },
+    {
+      "phase": "phase4",
+      "source": "/content/drive/MyDrive/Crypto_Research/revised_outputs/phase4/split_counts.csv",
+      "target": "/content/drive/MyDrive/crypto-sentiment-forecasting/results/phase4/split_counts.csv",
+      "status": "copied"
+    },
+    {
+      "phase": "phase4",
+      "source": "/content/drive/MyDrive/Crypto_Research/revised_outputs/phase4/test_period.csv",
+      "target": "/content/drive/MyDrive/crypto-sentiment-forecasting/results/phase4/test_period.csv",
+      "status": "copied"
+    },
+    {
+      "phase": "phase4",
+      "source": "/content/drive/MyDrive/Crypto_Research/revised_outputs/phase4/arima_orders.csv",
+      "target": "/content/drive/MyDrive/crypto-sentiment-forecasting/results/phase4/arima_orders.csv",
+      "status": "copied"
+    },
+    {
+      "phase": "phase4",
+      "source": "/content/drive/MyDrive/Crypto_Research/revised_outputs/phase4/experiment_configuration.json",
+      "target": "/content/drive/MyDrive/crypto-sentiment-forecasting/results/phase4/experiment_configuration.json",
+      "status": "copied"
+    },
+    {
+      "phase": "phase4",
+      "source": "/content/drive/MyDrive/Crypto_Research/revised_outputs/phase4/environment_manifest.json",
+      "target": "/content/drive/MyDrive/crypto-sentiment-forecasting/results/phase4/environment_manifest.json",
+      "status": "copied"
+    },
+    {
+      "phase": "phase4",
+      "source": "/content/drive/MyDrive/Crypto_Research/revised_outputs/phase4/vif.csv",
+      "target": "/content/drive/MyDrive/crypto-sentiment-forecasting/results/phase4/vif.csv",
+      "status": "copied"
+    },
+    {
+      "phase": "phase4",
+      "source": "/content/drive/MyDrive/Crypto_Research/revised_outputs/phase4/news_preprocessing_audit.csv",
+      "target": "/content/drive/MyDrive/crypto-sentiment-forecasting/results/phase4/news_preprocessing_audit.csv",
+      "status": "copied"
+    },
+    {
+      "phase": "phase5",
+      "source": "/content/drive/MyDrive/Crypto_Research/revised_outputs/phase5_reliability_fusion/ensemble_metrics.csv",
+      "target": "/content/drive/MyDrive/crypto-sentiment-forecasting/results/phase5/ensemble_metrics.csv",
+      "status": "copied"
+    },
+    {
+      "phase": "phase5",
+      "source": "/content/drive/MyDrive/Crypto_Research/revised_outputs/phase5_reliability_fusion/multiseed_summary.csv",
+      "target": "/content/drive/MyDrive/crypto-sentiment-forecasting/results/phase5/multiseed_summary.csv",
+      "status": "copied"
+    },
+    {
+      "phase": "phase5",
+      "source": "/content/drive/MyDrive/Crypto_Research/revised_outputs/phase5_reliability_fusion/significance.csv",
+      "target": "/content/drive/MyDrive/crypto-sentiment-forecasting/results/phase5/significance.csv",
+      "status": "copied"
+    },
+    {
+      "phase": "phase5",
+      "source": "/content/drive/MyDrive/Crypto_Research/revised_outputs/phase5_reliability_fusion/walk_forward_metrics.csv",
+      "target": "/content/drive/MyDrive/crypto-sentiment-forecasting/results/phase5/walk_forward_metrics.csv",
+      "status": "copied"
+    },
+    {
+      "phase": "phase5",
+      "source": "/content/drive/MyDrive/Crypto_Research/revised_outputs/phase5_reliability_fusion/split_counts.csv",
+      "target": "/content/drive/MyDrive/crypto-sentiment-forecasting/results/phase5/split_counts.csv",
+      "status": "copied"
+    },
+    {
+      "phase": "phase5",
+      "source": "/content/drive/MyDrive/Crypto_Research/revised_outputs/phase5_reliability_fusion/test_period.csv",
+      "target": "/content/drive/MyDrive/crypto-sentiment-forecasting/results/phase5/test_period.csv",
+      "status": "copied"
+    },
+    {
+      "phase": "phase5",
+      "source": "/content/drive/MyDrive/Crypto_Research/revised_outputs/phase5_reliability_fusion/arima_orders.csv",
+      "target": "/content/drive/MyDrive/crypto-sentiment-forecasting/results/phase5/arima_orders.csv",
+      "status": "copied"
+    },
+    {
+      "phase": "phase5",
+      "source": "/content/drive/MyDrive/Crypto_Research/revised_outputs/phase5_reliability_fusion/experiment_configuration.json",
+      "target": "/content/drive/MyDrive/crypto-sentiment-forecasting/results/phase5/experiment_configuration.json",
+      "status": "copied"
+    },
+    {
+      "phase": "phase5",
+      "source": "/content/drive/MyDrive/Crypto_Research/revised_outputs/phase5_reliability_fusion/environment_manifest.json",
+      "target": "/content/drive/MyDrive/crypto-sentiment-forecasting/results/phase5/environment_manifest.json",
+      "status": "copied"
+    },
+    {
+      "phase": "phase5",
+      "source": "/content/drive/MyDrive/Crypto_Research/revised_outputs/phase5_reliability_fusion/vif.csv",
+      "target": "/content/drive/MyDrive/crypto-sentiment-forecasting/results/phase5/vif.csv",
+      "status": "copied"
+    },
+    {
+      "phase": "phase5",
+      "source": "/content/drive/MyDrive/Crypto_Research/revised_outputs/phase5_reliability_fusion/news_preprocessing_audit.csv",
+      "target": "/content/drive/MyDrive/crypto-sentiment-forecasting/results/phase5/news_preprocessing_audit.csv",
+      "status": "copied"
+    },
+    {
+      "phase": "phase5",
+      "source": "/content/drive/MyDrive/Crypto_Research/revised_outputs/phase5_reliability_fusion/reliability_weight_audit.csv",
+      "target": "/content/drive/MyDrive/crypto-sentiment-forecasting/results/phase5/reliability_weight_audit.csv",
+      "status": "copied"
+    },
+    {
+      "phase": "phase5",
+      "source": "/content/drive/MyDrive/Crypto_Research/revised_outputs/phase5_reliability_fusion/phase5_vs_phase4_significance.csv",
+      "target": "/content/drive/MyDrive/crypto-sentiment-forecasting/results/phase5/phase5_vs_phase4_significance.csv",
+      "status": "copied"
+    },
+    {
+      "phase": "phase5",
+      "source": "/content/drive/MyDrive/Crypto_Research/revised_outputs/phase5_reliability_fusion/cross_phase_metrics.csv",
+      "target": "/content/drive/MyDrive/crypto-sentiment-forecasting/results/phase5/cross_phase_metrics.csv",
+      "status": "copied"
+    },
+    {
+      "phase": "economic_backtest",
+      "source": "/content/drive/MyDrive/Crypto_Research/revised_outputs/economic_backtest/backtest_metrics.csv",
+      "target": "/content/drive/MyDrive/crypto-sentiment-forecasting/results/economic_backtest/backtest_metrics.csv",
+      "status": "copied"
+    },
+    {
+      "phase": "economic_backtest",
+      "source": "/content/drive/MyDrive/Crypto_Research/revised_outputs/economic_backtest/backtest_primary_10bps.csv",
+      "target": "/content/drive/MyDrive/crypto-sentiment-forecasting/results/economic_backtest/backtest_primary_10bps.csv",
+      "status": "copied"
+    },
+    {
+      "phase": "economic_backtest",
+      "source": "/content/drive/MyDrive/Crypto_Research/revised_outputs/economic_backtest/block_bootstrap_mean_return_ci.csv",
+      "target": "/content/drive/MyDrive/crypto-sentiment-forecasting/results/economic_backtest/block_bootstrap_mean_return_ci.csv",
+      "status": "copied"
+    }
+  ],
+  "figures": [
+    {
+      "source": "/content/drive/MyDrive/Crypto_Research/revised_outputs/phase4/phase4_summary_mae.pdf",
+      "target": "/content/drive/MyDrive/crypto-sentiment-forecasting/figures/phase4_mae.pdf",
+      "status": "copied"
+    },
+    {
+      "source": "/content/drive/MyDrive/Crypto_Research/revised_outputs/phase4/phase4_summary_directional_accuracy.pdf",
+      "target": "/content/drive/MyDrive/crypto-sentiment-forecasting/figures/phase4_directional_accuracy.pdf",
+      "status": "copied"
+    },
+    {
+      "source": "/content/drive/MyDrive/Crypto_Research/revised_outputs/phase5_reliability_fusion/phase5_summary_mae.pdf",
+      "target": "/content/drive/MyDrive/crypto-sentiment-forecasting/figures/phase5_mae.pdf",
+      "status": "copied"
+    },
+    {
+      "source": "/content/drive/MyDrive/Crypto_Research/revised_outputs/phase5_reliability_fusion/phase5_summary_directional_accuracy.pdf",
+      "target": "/content/drive/MyDrive/crypto-sentiment-forecasting/figures/phase5_directional_accuracy.pdf",
+      "status": "copied"
+    },
+    {
+      "source": "/content/drive/MyDrive/Crypto_Research/revised_outputs/phase5_reliability_fusion/phase5_crypto_scope_weight_BTC.pdf",
+      "target": "/content/drive/MyDrive/crypto-sentiment-forecasting/figures/phase5_btc_scope_weight.pdf",
+      "status": "copied"
+    },
+    {
+      "source": "/content/drive/MyDrive/Crypto_Research/revised_outputs/phase5_reliability_fusion/phase5_crypto_scope_weight_ETH.pdf",
+      "target": "/content/drive/MyDrive/crypto-sentiment-forecasting/figures/phase5_eth_scope_weight.pdf",
+      "status": "copied"
+    },
+    {
+      "source": "/content/drive/MyDrive/Crypto_Research/revised_outputs/economic_backtest/cumulative_wealth_daily_sign_BTC_10bps.pdf",
+      "target": "/content/drive/MyDrive/crypto-sentiment-forecasting/figures/btc_backtest_10bps.pdf",
+      "status": "copied"
+    },
+    {
+      "source": "/content/drive/MyDrive/Crypto_Research/revised_outputs/economic_backtest/cumulative_wealth_daily_sign_ETH_10bps.pdf",
+      "target": "/content/drive/MyDrive/crypto-sentiment-forecasting/figures/eth_backtest_10bps.pdf",
+      "status": "copied"
+    },
+    {
+      "source": "/content/drive/MyDrive/Crypto_Research/revised_outputs/economic_backtest/cost_sensitivity_daily_sign_BTC.pdf",
+      "target": "/content/drive/MyDrive/crypto-sentiment-forecasting/figures/btc_cost_sensitivity.pdf",
+      "status": "copied"
+    },
+    {
+      "source": "/content/drive/MyDrive/Crypto_Research/revised_outputs/economic_backtest/cost_sensitivity_daily_sign_ETH.pdf",
+      "target": "/content/drive/MyDrive/crypto-sentiment-forecasting/figures/eth_cost_sensitivity.pdf",
+      "status": "copied"
+    }
+  ]
+}

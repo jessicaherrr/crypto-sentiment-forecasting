@@ -1,0 +1,50 @@
+{
+  "data_start_date": "2022-05-01T00:00:00",
+  "data_end_date": "2026-08-31T00:00:00",
+  "expected_news_provider": "Alpha Vantage",
+  "split_dates": {
+    "train_start": "2022-05-01 00:00:00",
+    "train_end": "2025-03-31 00:00:00",
+    "validation_start": "2025-04-01 00:00:00",
+    "validation_end": "2025-10-31 00:00:00",
+    "test_start": "2025-11-01 00:00:00",
+    "test_end": "2026-08-31 00:00:00"
+  },
+  "seeds": [
+    42,
+    123,
+    2024,
+    2025,
+    7
+  ],
+  "standard_lookback": 30,
+  "locked_lstm_units": [
+    100,
+    100,
+    50
+  ],
+  "locked_lstm_dropout": 0.2,
+  "locked_lstm_learning_rate": 0.001,
+  "locked_xgb_n_estimators": 500,
+  "locked_xgb_max_depth": 4,
+  "locked_xgb_learning_rate": 0.03,
+  "arima_order_candidates": [
+    [
+      1,
+      0,
+      0
+    ],
+    [
+      1,
+      0,
+      1
+    ],
+    [
+      2,
+      0,
+      0
+    ]
+  ],
+  "vif_threshold": 5.0,
+  "run_walk_forward": true
+}

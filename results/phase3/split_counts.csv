@@ -1,0 +1,11 @@
+split,observation_count,asset
+warmup,9,BTC
+train,1066,BTC
+validation,214,BTC
+test,304,BTC
+excluded,0,BTC
+warmup,9,ETH
+train,1066,ETH
+validation,214,ETH
+test,304,ETH
+excluded,0,ETH

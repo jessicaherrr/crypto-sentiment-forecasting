@@ -1,0 +1,29 @@
+asset,comparison,candidate_method,reference_method,candidate_mae,reference_mae,mae_difference,wilcoxon_p_value_candidate_lower_error,paired_observations
+BTC,Dual-scope concat vs general for LSTM,phase5_concat_lstm,phase2_general_lstm,0.016940976919471957,0.01661481634675479,0.0003261605727171678,0.9994625493271537,304
+BTC,Dual-scope concat vs crypto for LSTM,phase5_concat_lstm,phase3_crypto_lstm,0.016940976919471957,0.017160490057231737,-0.00021951313775978032,0.008696533898953808,304
+BTC,Reliability fusion vs simple concat for LSTM,phase5_reliability_fusion_lstm,phase5_concat_lstm,0.016677174213086163,0.016940976919471957,-0.0002638027063857941,0.0011425097173716151,304
+BTC,Reliability fusion vs general for LSTM,phase5_reliability_fusion_lstm,phase2_general_lstm,0.016677174213086163,0.01661481634675479,6.235786633137369e-05,0.8983032529157573,304
+BTC,Reliability fusion vs crypto for LSTM,phase5_reliability_fusion_lstm,phase3_crypto_lstm,0.016677174213086163,0.017160490057231737,-0.0004833158441455744,0.0009676244216581574,304
+BTC,Reliability fusion LSTM vs random walk,phase5_reliability_fusion_lstm,random_walk_zero_return,0.016677174213086163,0.016664849382560683,1.2324830525479308e-05,0.6514397969209669,304
+BTC,Reliability fusion LSTM vs ARIMA,phase5_reliability_fusion_lstm,arima,0.016677174213086163,0.01667704113053374,1.3308255242261424e-07,0.21111945997153514,304
+BTC,Dual-scope concat vs general for XGB,phase5_concat_xgb,phase2_general_xgb,0.017292423870540554,0.017172949483765756,0.00011947438677479758,0.5854256226136539,304
+BTC,Dual-scope concat vs crypto for XGB,phase5_concat_xgb,phase3_crypto_xgb,0.017292423870540554,0.017682591007603436,-0.00039016713706288217,0.008589476029833903,304
+BTC,Reliability fusion vs simple concat for XGB,phase5_reliability_fusion_xgb,phase5_concat_xgb,0.017195075167485818,0.017292423870540554,-9.734870305473653e-05,0.5013004377383055,304
+BTC,Reliability fusion vs general for XGB,phase5_reliability_fusion_xgb,phase2_general_xgb,0.017195075167485818,0.017172949483765756,2.2125683720061046e-05,0.5213170624943027,304
+BTC,Reliability fusion vs crypto for XGB,phase5_reliability_fusion_xgb,phase3_crypto_xgb,0.017195075167485818,0.017682591007603436,-0.0004875158401176187,0.16357471093495307,304
+BTC,Reliability fusion XGB vs random walk,phase5_reliability_fusion_xgb,random_walk_zero_return,0.017195075167485818,0.016664849382560683,0.0005302257849251341,0.9189086026852327,304
+BTC,Reliability fusion XGB vs ARIMA,phase5_reliability_fusion_xgb,arima,0.017195075167485818,0.01667704113053374,0.0005180340369520774,0.9187125857811153,304
+ETH,Dual-scope concat vs general for LSTM,phase5_concat_lstm,phase2_general_lstm,0.023462768806940117,0.024450611844703124,-0.0009878430377630067,0.0026917059528951313,304
+ETH,Dual-scope concat vs crypto for LSTM,phase5_concat_lstm,phase3_crypto_lstm,0.023462768806940117,0.023374036659827475,8.87321471126426e-05,0.5685819836159003,304
+ETH,Reliability fusion vs simple concat for LSTM,phase5_reliability_fusion_lstm,phase5_concat_lstm,0.02405378226378613,0.023462768806940117,0.0005910134568460138,0.9478112839588586,304
+ETH,Reliability fusion vs general for LSTM,phase5_reliability_fusion_lstm,phase2_general_lstm,0.02405378226378613,0.024450611844703124,-0.0003968295809169929,0.02722529258902106,304
+ETH,Reliability fusion vs crypto for LSTM,phase5_reliability_fusion_lstm,phase3_crypto_lstm,0.02405378226378613,0.023374036659827475,0.0006797456039586564,0.9862914113672587,304
+ETH,Reliability fusion LSTM vs random walk,phase5_reliability_fusion_lstm,random_walk_zero_return,0.02405378226378613,0.02293881618496429,0.00111496607882184,0.9989551387573129,304
+ETH,Reliability fusion LSTM vs ARIMA,phase5_reliability_fusion_lstm,arima,0.02405378226378613,0.022992327544432912,0.0010614547193532192,0.9982464988387625,304
+ETH,Dual-scope concat vs general for XGB,phase5_concat_xgb,phase2_general_xgb,0.024038725907504204,0.02410253920835162,-6.38133008474158e-05,0.271722497509724,304
+ETH,Dual-scope concat vs crypto for XGB,phase5_concat_xgb,phase3_crypto_xgb,0.024038725907504204,0.024686369537748026,-0.0006476436302438222,0.005075905519194075,304
+ETH,Reliability fusion vs simple concat for XGB,phase5_reliability_fusion_xgb,phase5_concat_xgb,0.028448730288837328,0.024038725907504204,0.004410004381333123,0.9999999271562333,304
+ETH,Reliability fusion vs general for XGB,phase5_reliability_fusion_xgb,phase2_general_xgb,0.028448730288837328,0.02410253920835162,0.004346191080485708,0.999999846472071,304
+ETH,Reliability fusion vs crypto for XGB,phase5_reliability_fusion_xgb,phase3_crypto_xgb,0.028448730288837328,0.024686369537748026,0.003762360751089301,0.9999977942505833,304
+ETH,Reliability fusion XGB vs random walk,phase5_reliability_fusion_xgb,random_walk_zero_return,0.028448730288837328,0.02293881618496429,0.005509914103873036,0.9999999968049145,304
+ETH,Reliability fusion XGB vs ARIMA,phase5_reliability_fusion_xgb,arima,0.028448730288837328,0.022992327544432912,0.005456402744404416,0.999999996150507,304

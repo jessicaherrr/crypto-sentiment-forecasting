@@ -1,0 +1,29 @@
+asset,comparison,candidate_method,reference_method,candidate_mae,reference_mae,mae_difference,wilcoxon_p_value_candidate_lower_error,paired_observations
+BTC,Phase 3 reference LSTM vs random walk,phase3_reference_lstm,random_walk_zero_return,0.01716048977641807,0.016664849382560683,0.0004956403938573863,0.9963632241408118,304
+BTC,Phase 3 reference LSTM vs ARIMA,phase3_reference_lstm,arima,0.01716048977641807,0.01667704113051064,0.00048344864590742914,0.9941391782825735,304
+BTC,Short window only vs Phase 3 for LSTM,phase4_short_window_only_lstm,phase3_reference_lstm,0.016848027412880332,0.01716048977641807,-0.00031246236353773757,0.005543041036185527,304
+BTC,Decay only vs Phase 3 for LSTM,phase4_decay_only_lstm,phase3_reference_lstm,0.016775774933786274,0.01716048977641807,-0.0003847148426317955,0.002256611173512907,304
+BTC,Combined temporal changes vs Phase 3 for LSTM,phase4_combined_lstm,phase3_reference_lstm,0.016818776824276654,0.01716048977641807,-0.0003417129521414153,0.004445057752690052,304
+BTC,Combined vs short window only for LSTM,phase4_combined_lstm,phase4_short_window_only_lstm,0.016818776824276654,0.016848027412880332,-2.9250588603677713e-05,0.1717494435001783,304
+BTC,Combined vs decay only for LSTM,phase4_combined_lstm,phase4_decay_only_lstm,0.016818776824276654,0.016775774933786274,4.3001890490380196e-05,0.9618554468754146,304
+BTC,Phase 3 reference XGB vs random walk,phase3_reference_xgb,random_walk_zero_return,0.017682591007603436,0.016664849382560683,0.0010177416250427528,0.9958989200963422,304
+BTC,Phase 3 reference XGB vs ARIMA,phase3_reference_xgb,arima,0.017682591007603436,0.01667704113051064,0.0010055498770927956,0.9946602172800589,304
+BTC,Short window only vs Phase 3 for XGB,phase4_short_window_only_xgb,phase3_reference_xgb,0.01801305474404623,0.017682591007603436,0.0003304637364427952,0.7548264002005238,304
+BTC,Decay only vs Phase 3 for XGB,phase4_decay_only_xgb,phase3_reference_xgb,0.017682591007603436,0.017682591007603436,0.0,1.0,304
+BTC,Combined temporal changes vs Phase 3 for XGB,phase4_combined_xgb,phase3_reference_xgb,0.01801305474404623,0.017682591007603436,0.0003304637364427952,0.7548264002005238,304
+BTC,Combined vs short window only for XGB,phase4_combined_xgb,phase4_short_window_only_xgb,0.01801305474404623,0.01801305474404623,0.0,1.0,304
+BTC,Combined vs decay only for XGB,phase4_combined_xgb,phase4_decay_only_xgb,0.01801305474404623,0.017682591007603436,0.0003304637364427952,0.7548264002005238,304
+ETH,Phase 3 reference LSTM vs random walk,phase3_reference_lstm,random_walk_zero_return,0.02337403664910501,0.022938816184964295,0.0004352204641407155,0.989369521039039,304
+ETH,Phase 3 reference LSTM vs ARIMA,phase3_reference_lstm,arima,0.02337403664910501,0.022992327544432912,0.0003817091046720983,0.9805862509514816,304
+ETH,Short window only vs Phase 3 for LSTM,phase4_short_window_only_lstm,phase3_reference_lstm,0.022989120101128552,0.02337403664910501,-0.0003849165479764584,0.049198214501647373,304
+ETH,Decay only vs Phase 3 for LSTM,phase4_decay_only_lstm,phase3_reference_lstm,0.02322866141910125,0.02337403664910501,-0.00014537523000375877,0.20999036676346916,304
+ETH,Combined temporal changes vs Phase 3 for LSTM,phase4_combined_lstm,phase3_reference_lstm,0.02292959752373943,0.02337403664910501,-0.00044443912536558036,0.007339033439866079,304
+ETH,Combined vs short window only for LSTM,phase4_combined_lstm,phase4_short_window_only_lstm,0.02292959752373943,0.022989120101128552,-5.952257738912198e-05,0.30554566063281613,304
+ETH,Combined vs decay only for LSTM,phase4_combined_lstm,phase4_decay_only_lstm,0.02292959752373943,0.02322866141910125,-0.0002990638953618216,0.04441765337196649,304
+ETH,Phase 3 reference XGB vs random walk,phase3_reference_xgb,random_walk_zero_return,0.024686369537748026,0.022938816184964295,0.0017475533527837317,0.9999238051243204,304
+ETH,Phase 3 reference XGB vs ARIMA,phase3_reference_xgb,arima,0.024686369537748026,0.022992327544432912,0.0016940419933151145,0.999892107604523,304
+ETH,Short window only vs Phase 3 for XGB,phase4_short_window_only_xgb,phase3_reference_xgb,0.02425777401453533,0.024686369537748026,-0.00042859552321269576,0.41305041119130165,304
+ETH,Decay only vs Phase 3 for XGB,phase4_decay_only_xgb,phase3_reference_xgb,0.024686369537748026,0.024686369537748026,0.0,1.0,304
+ETH,Combined temporal changes vs Phase 3 for XGB,phase4_combined_xgb,phase3_reference_xgb,0.02425777401453533,0.024686369537748026,-0.00042859552321269576,0.41305041119130165,304
+ETH,Combined vs short window only for XGB,phase4_combined_xgb,phase4_short_window_only_xgb,0.02425777401453533,0.02425777401453533,0.0,1.0,304
+ETH,Combined vs decay only for XGB,phase4_combined_xgb,phase4_decay_only_xgb,0.02425777401453533,0.024686369537748026,-0.00042859552321269576,0.41305041119130165,304

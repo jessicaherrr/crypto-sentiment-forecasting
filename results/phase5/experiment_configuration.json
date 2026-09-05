@@ -1,0 +1,39 @@
+{
+  "phase": "phase5_reliability_aware_dual_scope_fusion",
+  "data_start_date": "2022-05-01T00:00:00",
+  "data_end_date": "2026-08-31T00:00:00",
+  "split_dates": {
+    "train_start": "2022-05-01 00:00:00",
+    "train_end": "2025-03-31 00:00:00",
+    "validation_start": "2025-04-01 00:00:00",
+    "validation_end": "2025-10-31 00:00:00",
+    "test_start": "2025-11-01 00:00:00",
+    "test_end": "2026-08-31 00:00:00"
+  },
+  "seeds": [
+    42,
+    123,
+    2024,
+    2025,
+    7
+  ],
+  "standard_lookback": 30,
+  "fusion_reliability_components": [
+    "training-standardized log news count",
+    "training-standardized mean FinBERT confidence",
+    "training-standardized log source count",
+    "training-standardized negative sentiment dispersion"
+  ],
+  "fusion_weight_rule": "softmax between general and crypto reliability indices; single available scope gets weight 1",
+  "locked_lstm_units": [
+    100,
+    100,
+    50
+  ],
+  "locked_lstm_dropout": 0.2,
+  "locked_lstm_learning_rate": 0.001,
+  "locked_xgb_n_estimators": 500,
+  "locked_xgb_max_depth": 4,
+  "locked_xgb_learning_rate": 0.03,
+  "run_walk_forward": true
+}
