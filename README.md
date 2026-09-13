@@ -66,9 +66,6 @@ The final rerun used Python 3.13.15 with the principal package versions recorded
 
 Code and processed experimental outputs are included in this repository. **Raw Alpha Vantage news data are not redistributed** and remain subject to the provider's access and redistribution terms.
 
-Once published, the manuscript statement can read:
-
-> Code and processed experimental outputs are available at https://github.com/<YOUR_GITHUB_USERNAME>/crypto-sentiment-forecasting. Raw Alpha Vantage news data are subject to the provider's redistribution terms.
 
 ## Citation
 
