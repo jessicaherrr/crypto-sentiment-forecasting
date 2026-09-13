@@ -1,0 +1,4 @@
+file,rows,invalid_raw_timestamp,exact_utc_mismatch,pub_date_floor_mismatch,min_utc,max_utc,hour00_rows,hour23_rows,status
+alphavantage_general_articles_raw.csv,1398093,0,0,0,2022-04-01 03:19:00+00:00,2026-08-31 23:58:27+00:00,47515,36857,PASS
+alphavantage_BTC_crypto_articles_raw.csv,61937,0,0,0,2022-04-01 00:08:13+00:00,2026-08-31 23:06:46+00:00,758,1008,PASS
+alphavantage_ETH_crypto_articles_raw.csv,41682,0,0,0,2022-04-01 01:15:18+00:00,2026-08-31 22:30:00+00:00,497,678,PASS
