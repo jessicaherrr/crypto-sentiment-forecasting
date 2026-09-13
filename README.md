@@ -46,15 +46,15 @@ crypto-sentiment-forecasting/
 
 The notebooks were designed for a Google Colab / Google Drive workflow and should be run in this order:
 
-1. `Phase0_HICSS_Revised_v3.ipynb`
-2. `Phase1_HICSS_Revised_v3.ipynb`
-3. `Phase2_HICSS_Revised_v3.ipynb`
-4. `Phase3_HICSS_Revised_v3.ipynb`
-5. `Phase4_HICSS_Revised_v3.ipynb`
-6. `Phase5_Reliability_Aware_Dual_Scope_Fusion_v3.ipynb`
-7. `FinalRevision_Temporal_Alignment_Audit_v3.ipynb`
-8. `FinalRevision_Statistical_and_Consistency_Audit_v3.ipynb`
-9. `Economic_Backtest_With_Trading_Costs_v3.ipynb`
+1. `Phase0.ipynb`
+2. `Phase1.ipynb`
+3. `Phase2.ipynb`
+4. `Phase3.ipynb`
+5. `Phase4.ipynb`
+6. `Phase5.ipynb`
+7. `FinalRevision_Temporal_Alignment_Audit.ipynb`
+8. `FinalRevision_Statistical_and_Consistency_Audit.ipynb`
+9. `Economic_Backtest_With_Trading_Costs.ipynb`
 
 The notebooks write the final artifacts to `revised_outputs_v3/` in the configured project directory. Raw/provider data must be supplied separately as described in [`DATA_ACCESS.md`](DATA_ACCESS.md).
 
