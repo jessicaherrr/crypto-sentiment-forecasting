@@ -1,0 +1,3 @@
+corpus,input_rows,after_exact_id_rows,after_title_source_day_rows,exact_id_removed,title_source_day_removed,automated_removed,automated_filter_method,final_rows
+alphavantage_BTC_crypto_articles_finbert.csv,61937,61937,61389,0,548,0,marketwatch_data_news_or_template_fallback,61389
+alphavantage_ETH_crypto_articles_finbert.csv,41682,41682,41374,0,308,0,marketwatch_data_news_or_template_fallback,41374
