@@ -1,7 +1,0 @@
-item,path,exists
-temporal_alignment,/content/drive/MyDrive/Crypto_Research/revised_outputs_v3/final_revision_audit/temporal_alignment_protocol.json,True
-timestamp_audit,/content/drive/MyDrive/Crypto_Research/revised_outputs_v3/final_revision_audit/timestamp_convention_audit.csv,True
-phase4_decay_selection,/content/drive/MyDrive/Crypto_Research/revised_outputs_v3/phase4/decay_rate_selection_summary.csv,True
-phase4_decay_lock,/content/drive/MyDrive/Crypto_Research/revised_outputs_v3/phase4/selected_decay_rate.json,True
-phase5_reliability_sensitivity,/content/drive/MyDrive/Crypto_Research/revised_outputs_v3/phase5_reliability_fusion/reliability_coverage_sensitivity.csv,True
-phase5_provider_shift,/content/drive/MyDrive/Crypto_Research/revised_outputs_v3/phase5_reliability_fusion/provider_shift_weight_diagnostics.csv,True

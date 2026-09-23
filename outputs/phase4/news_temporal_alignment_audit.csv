@@ -1,3 +1,0 @@
-corpus,rows,status,invalid_time_published,published_at_utc_mismatch_rows,pub_date_mismatch_rows,min_published_at_utc,max_published_at_utc,rows_utc_hour_00,rows_utc_hour_23
-alphavantage_BTC_crypto_articles_finbert.csv,61389,pass,0,0,0,2022-04-01 00:08:13+00:00,2026-08-31 23:06:46+00:00,753,996
-alphavantage_ETH_crypto_articles_finbert.csv,41374,pass,0,0,0,2022-04-01 01:15:18+00:00,2026-08-31 22:30:00+00:00,494,676
