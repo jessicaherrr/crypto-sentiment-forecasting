@@ -1,0 +1,2 @@
+corpus,input_rows,after_exact_id_rows,after_title_source_day_rows,exact_id_removed,title_source_day_removed,automated_removed,automated_filter_method,final_rows
+alphavantage_general_articles_raw.csv,1398093,1398093,1391142,0,6951,34428,marketwatch_data_news_or_template_fallback,1356714

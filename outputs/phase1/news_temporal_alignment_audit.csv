@@ -1,0 +1,2 @@
+corpus,rows,status,invalid_time_published,published_at_utc_mismatch_rows,pub_date_mismatch_rows,min_published_at_utc,max_published_at_utc,rows_utc_hour_00,rows_utc_hour_23
+alphavantage_general_articles_raw.csv,1356714,pass,0,0,0,2022-04-01 03:19:00+00:00,2026-08-31 23:58:27+00:00,47079,36702
