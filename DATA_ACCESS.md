@@ -33,7 +33,12 @@ Three cleaned news corpora are used:
 
 Before daily aggregation, duplicate articles are removed using provider article IDs or matching normalized titles, sources, and UTC publication dates. Identified automated MarketWatch recap articles are excluded, while regular editorial articles are retained.
 
-News is aligned using exact UTC publication timestamps. Articles published during
+News is aligned using exact UTC publication timestamps. Articles published during [t 00:00 UTC, (t+1) 00:00 UTC] are assigned to day t. The forecast is formed after day t is complete and predicts the next-day log return.
 
-```text
-[t 00:00 UTC, (t+1) 00:00 UTC)
+The final temporal-alignment audit reports no future-information violations.
+
+## Raw Data Availability
+
+**Raw Alpha Vantage news records are not redistributed in this repository** because they remain subject to the provider's access and redistribution terms.
+
+Users who wish to reproduce the news-processing pipeline from raw data must obtain their own authorized Alpha Vantage access.
