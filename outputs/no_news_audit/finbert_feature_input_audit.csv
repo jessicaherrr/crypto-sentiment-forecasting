@@ -1,0 +1,6 @@
+phase,news_count_computed,news_count_used_as_forecasting_feature,explicit_no_news_indicator,note
+Phase 1 API sentiment,True,True,False,total_news_count is one of the Phase 1 sentiment features.
+Phase 2 general FinBERT,True,False,False,"Forecasting inputs use weighted sentiment, sentiment volatility, and 3-day momentum."
+Phase 3 crypto-specific FinBERT,True,False,False,"Forecasting inputs use weighted sentiment, sentiment volatility, and 3-day momentum."
+Phase 4 temporal FinBERT,True,False,False,Same three FinBERT features as Phase 3; temporal treatment changes sequence weighting/lookback only.
+Phase 5 reliability fusion,True,False,False,"news_count enters the reliability-weight construction and missing-scope logic, but is not a direct forecasting feature."
